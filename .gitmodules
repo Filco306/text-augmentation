@@ -1,0 +1,3 @@
+[submodule "paraphraser"]
+	path = paraphraser
+	url = https://github.com/vsuthichai/paraphraser.git
