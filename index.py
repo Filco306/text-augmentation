@@ -1,5 +1,5 @@
-from src.run import hello_world
+from src.backtranslate import backtranslate
 
 
 if __name__ == "__main__":
-    print(hello_world())
+    print(backtranslate("This is a test to augment data to backtranslate some words. "))
