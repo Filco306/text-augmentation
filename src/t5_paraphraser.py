@@ -14,7 +14,12 @@ model = model.to(device)
 max_len = 256
 
 
-def generate(sentence, verbose: int = 0):
+def generate(
+    sentence: str,
+    verbose: int = 0,
+    skip_special_tokens: bool = True,
+    clean_up_tokenization_spaces: bool = True,
+) -> List[str]:
     text = "paraphrase: " + sentence + " </s>"
 
     encoding = tokenizer.encode_plus(text, pad_to_max_length=True, return_tensors="pt")

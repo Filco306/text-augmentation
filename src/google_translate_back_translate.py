@@ -31,3 +31,10 @@ def backtranslate(
         ret.append(to_append)
 
     return ret, langs
+
+
+if __name__ == "__main__":
+    s, langs = backtranslate(
+        "Do we drive on the right side of the road in Sweden?", n_langs=20
+    )
+    print(set(s))
