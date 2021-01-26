@@ -1,0 +1,6 @@
+[submodule "DiPS"]
+	path = DiPS
+	url = https://github.com/malllabiisc/DiPS
+[submodule "paraphraser"]
+	path = paraphraser
+	url = https://github.com/Filco306/paraphraser.git
